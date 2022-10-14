@@ -1,6 +1,5 @@
 
-1. Download the "device_serial.sh" file from the
-   "https://github.com/stefan-cnx/CN2/" repository.
+1. Download the "device_serial.sh" file from the "https://github.com/stefan-cnx/CN2/" repository.\n
    To download: a. Click the file link and the file content will show
                 b. Right-click the "Raw" button and select "Save link as...".
                 c. The "Save As" dialog window will open.
