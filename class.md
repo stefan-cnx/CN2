@@ -1,4 +1,4 @@
-Welcome to our CN1 Class
+Welcome to our CN2 Class
 ========================
 14th October 2022 09:00
 
