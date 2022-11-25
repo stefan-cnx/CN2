@@ -28,3 +28,9 @@ We will use SSH to access our server remotely without the need of the ProxMox VE
    
 2. FTP Server
 -------------
+We will use vsftpd as our preferred FTP server.
+1. Ensure you have started a SSH session with your server.
+2. Install vsftpd Server by running these commands:  
+   sudo apt update  
+   sudo apt upgrade -y  
+   sudo apt install vsftpd  
