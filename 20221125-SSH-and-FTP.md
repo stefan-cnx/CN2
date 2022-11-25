@@ -10,7 +10,7 @@ We will use SSH to access our server remotely without the need of the ProxMox VE
    sudo apt upgrade -y  
    sudo apt install openssh-server  
    => you may get a message informing that 
-      this application can not be upgraded as the lastest version is installed
+      this application can not be upgraded as the lastest version is installed  
    sudo systemctl status ssh  
    => inspect the status of the OpenSSH server  
       you may need to enable and start this service  
@@ -21,5 +21,8 @@ We will use SSH to access our server remotely without the need of the ProxMox VE
 3. Open your Windows 'Command Prompt' ('Windows' + 'R' => Enter 'cmd' and click 'OK')
 4. Start a SSH session by entering 'ssh' + space + your servers username + '@' + the servers IP address  
    Did you use the correct username, IP address and entry format?  
-   Note that the for the first time starting a session to the server from a device, you will be asked to accept the provided fingerprint.  
+   Note that the for the first time starting a session to the server from a device,  
+   you will be asked to accept the provided fingerprint.  
+5. After a successfull login you can start managing the server.
+6. Use the 'exit' command to close the SSH session.
    
