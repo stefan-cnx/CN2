@@ -26,3 +26,5 @@ We will use SSH to access our server remotely without the need of the ProxMox VE
 5. After a successfull login you can start managing the server.
 6. Use the 'exit' command to close the SSH session.
    
+2. FTP Server
+-------------
