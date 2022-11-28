@@ -1,9 +1,9 @@
 Wireshark on Raspberry Pi
 =========================
 
-1.) Install
------------
-1. Login to the bash terminal of the Raspberry Pi.
+1.) Installation
+----------------
+1. Start the bash terminal of the Raspberry Pi.
 2. Install Wireshark by running these commands:  
    sudo apt update  
    sudo apt upgrade -y  
@@ -13,15 +13,8 @@ Wireshark on Raspberry Pi
 3. Use the 'exit' command to close the bash terminal.  
 
    
-2.) FTP Server
---------------
-We will use vsftpd as our preferred FTP server.
-1. Ensure you have started a SSH session with your server.
-2. Install vsftpd Server by running these commands:  
-   sudo apt update  
-   sudo apt upgrade -y  
-   sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.orig  
-   => This will create a backup copy of the vsftpd configuration file.  
-      Might come in handy in the future.
-3. ... now we'll start playing a little ...
-   sudo apt install vsftpd  
+2.) Running Wireshark Session
+-----------------------------
+1. Start the bash terminal of the Raspberry Pi.  
+2. Run this command: sudo wireshark  
+   => you will need to run Wireshark as superuser to access ther interface(s)
