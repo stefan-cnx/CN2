@@ -18,3 +18,11 @@ Wireshark on Raspberry Pi
 1. Start the bash terminal of the Raspberry Pi.  
 2. Run this command: sudo wireshark  
    => you will need to run Wireshark as superuser to access ther interface(s)
+   
+   
+3.) Capture ICMP Packages
+-------------------------
+1. Start the bash terminal of the Raspberry Pi.  
+2. Start pinging a network device (e.g. default gateway).
+3. Continue pinging until you completed capturing a couple of frames.
+
