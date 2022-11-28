@@ -1,8 +1,8 @@
 SSH and FTP Setup
 =================
 
-1. SSH
-------
+1.) SSH
+-------
 We will use SSH to access our server remotely without the need of the ProxMox VE WebUI.
 1. Login to the bash terminal of the Ubuntu server on Proxmox VE WebUI.
 2. Install OhenSSH Server by running these commands:  
@@ -25,9 +25,10 @@ We will use SSH to access our server remotely without the need of the ProxMox VE
    you will be asked to accept the provided fingerprint.  
 5. After a successfull login you can start managing the server.
 6. Use the 'exit' command to close the SSH session.  
+
    
-2. FTP Server
--------------
+2.) FTP Server
+--------------
 We will use vsftpd as our preferred FTP server.
 1. Ensure you have started a SSH session with your server.
 2. Install vsftpd Server by running these commands:  
