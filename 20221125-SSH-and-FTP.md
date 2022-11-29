@@ -34,6 +34,7 @@ We will use vsftpd as our preferred FTP server.
 2. Install vsftpd Server by running these commands:  
    sudo apt update  
    sudo apt upgrade -y  
+   sudo apt install vsftpd  
    sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.orig  
    => This will create a backup copy of the vsftpd configuration file.  
       Might come in handy in the future.
