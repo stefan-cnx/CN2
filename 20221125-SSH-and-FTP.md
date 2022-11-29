@@ -39,4 +39,4 @@ We will use vsftpd as our preferred FTP server.
    => This will create a backup copy of the vsftpd configuration file.  
       Might come in handy in the future.
 3. ... now we'll start playing a little ...
-   sudo apt install vsftpd  
+    
